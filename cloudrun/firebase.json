@@ -1,0 +1,22 @@
+{
+  "hosting": {
+    "public": "static",
+    "ignore": [
+      "firebase.json",
+      "**/.*"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "run": {
+          "serviceId": "hello-run",
+          "region": "asia-northeast1"
+        }
+      },
+      {
+        "source": "/static/**",
+        "destination": "/static.html"
+      }
+    ]
+  }
+}
