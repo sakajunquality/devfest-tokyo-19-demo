@@ -9,7 +9,7 @@
       {
         "source": "**",
         "run": {
-          "serviceId": "hello-run",
+          "serviceId": "demo-app",
           "region": "asia-northeast1"
         }
       },
